@@ -16,7 +16,7 @@ export default hopeTheme({
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "src",
-
+  fullscreen: true,
   locales: {
     "/": {
       // navbar
@@ -34,6 +34,7 @@ export default hopeTheme({
       attrs: true,
       chart: true,
       codetabs: true,
+      container: true,
       demo: true,
       card: true,
       echarts: true,

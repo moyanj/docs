@@ -14,7 +14,12 @@ export const zhSidebar = sidebar({
         children: [
             {
                 text: "HoYoGameLauncher",
-                link: "/hygl"
+                link: "/hygl",
+                prefix: "/hygl",
+                children: [
+                  "plugin.html",
+                  "dev.html"
+                ]
             },
             {
                 text: "MoYanACT",
