@@ -1,0 +1,4 @@
+---
+title: HoYoGameLauncher
+---
+# HoYoGameLauncher
