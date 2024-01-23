@@ -36,6 +36,7 @@ export default hopeTheme({
       codetabs: true,
       container: true,
       demo: true,
+      alert: true,
       card: true,
       echarts: true,
       figure: true,
