@@ -55,19 +55,6 @@ export default hopeTheme({
       revealjs: {
         plugins: ["highlight", "math", "search", "notes", "zoom"],
       },
-      stylize: [
-        {
-          matcher: "Recommended",
-          replacer: ({ tag }) => {
-            if (tag === "em")
-              return {
-                tag: "Badge",
-                attrs: { type: "tip" },
-                content: "Recommended",
-              };
-          },
-        },
-      ],
       sub: true,
       sup: true,
       tabs: true,
@@ -92,6 +79,13 @@ export default hopeTheme({
           "YouTube",
         ],
       },
+    },
+    comment:{
+        provider:"Giscus",
+        repo: "moyanj/docs",
+        repoId:"R_kgDOKgLV3Q",
+        category:"Show and tell",
+        categoryId:"DIC_kwDOKgLV3c4CcqKK"
     },
 
   },
