@@ -23,7 +23,11 @@ export const zhSidebar = sidebar({
             },
             {
                 text: "MoYanACT",
-                link: "/moyanact"
+                link: "/moyanact",
+                prefix: "/moyanact"
+                children: [
+                    "apis.html"
+                ]
             },
             {
               text: "MoYanLib",
