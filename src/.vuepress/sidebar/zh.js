@@ -15,16 +15,19 @@ export const zhSidebar = sidebar({
             {
                 text: "HoYoGameLauncher",
                 link: "/hygl",
-                prefix: "/hygl",
                 children: [
-                  "plugin.html",
-                  "dev.html"
+                  {
+                      text:"插件开发",
+                      link:"/hygl/plugin.md"
+                  },{
+                      text:"主程序开发",
+                      link:"/hygl/dev.md"
+                  }
                 ]
             },
             {
                 text: "MoYanACT",
                 link: "/moyanact",
-                prefix: "/moyanact",
                 children: [
                     "apis.html"
                 ]

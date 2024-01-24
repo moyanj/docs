@@ -1,5 +1,5 @@
 ---
-title: MoYanACT - API
+title: API文档
 ---
 # MYA的API
 ::: info
@@ -25,6 +25,8 @@ title: MoYanACT - API
 | code | str | 图形验证码 | 是 | sjF4 | 于`/api/code`获取 |
 | uid | str | 图形验证码uid | 是 | sjiwvGIW573sjqhs | 于`/api/code`获取 |
 
+### 返回数据
+
 ### 返回示例
 #### 正常
 ```json
@@ -35,4 +37,18 @@ title: MoYanACT - API
 }
 ```
 
+### 备注
+无
+
 ## 登录
+
+### 端点
+`/api/login`
+
+### 请求方法
+`POST`
+### 参数
+#### POST的json参数
+|  参数   | 类型  | 作用 | 是否必须 | 示例 | 备注 |
+|  ----  | ----  | ---- | ---- | ---- | ---- | 
+| name | str | 用户名 | 是 | moyan | 
