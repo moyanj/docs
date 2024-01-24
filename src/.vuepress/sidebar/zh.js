@@ -29,7 +29,7 @@ export const zhSidebar = sidebar({
                 text: "MoYanACT",
                 link: "/moyanact",
                 children: [
-                    "apis.html"
+                    "/moyanact/apis.md"
                 ]
             },
             {
