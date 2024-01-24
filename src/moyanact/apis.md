@@ -26,7 +26,8 @@ title: API文档
 | uid | str | 图形验证码uid | 是 | sjiwvGIW573sjqhs | 于`/api/code`获取 |
 
 ### 返回数据
-
+#### `data`
+无
 ### 返回示例
 #### 正常
 ```json
@@ -51,4 +52,6 @@ title: API文档
 #### POST的json参数
 |  参数   | 类型  | 作用 | 是否必须 | 示例 | 备注 |
 |  ----  | ----  | ---- | ---- | ---- | ---- | 
-| name | str | 用户名 | 是 | moyan | 
+| name | str | 用户名 | 是 | moyan | 邮箱用户名任选其一 |
+| email | str | 邮箱 | 是 | moyanact@163.com | 邮箱用户名任选其一 |
+| password | str | 密码 | 是 | auhv | |
