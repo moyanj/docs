@@ -24,7 +24,7 @@ export const zhSidebar = sidebar({
             {
                 text: "MoYanACT",
                 link: "/moyanact",
-                prefix: "/moyanact"
+                prefix: "/moyanact",
                 children: [
                     "apis.html"
                 ]
