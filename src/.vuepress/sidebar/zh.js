@@ -41,5 +41,4 @@ export const zhSidebar = sidebar({
                 ]
             }
         ]
-    }],
 });
